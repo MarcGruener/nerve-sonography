@@ -35,7 +35,7 @@ docker build -t nerve-sonography . && docker run --rm -p 8080:8080 nerve-sonogra
 Cookieless; nothing is stored on the visitor's device.
 
 - **Plausible:** site `nerve-sonography.org`, using the classic script.
-- **OpenPanel:** project `nervesonography`. `site/stats.js` sends one `screen_view`, with the client id written in it. OpenPanel accepts events only from the project's allowed domains, so local runs send nothing.
+- **OpenPanel:** project `nerve-sonography`. `site/stats.js` sends one `screen_view`, with the client id written in it. OpenPanel accepts events only from the project's allowed domains, so local runs send nothing.
 - **Not-found page:** `site/404.html` marks itself with `data-page="404"`, and `stats.js` then sends `404` to both.
 
 ## Deploy
