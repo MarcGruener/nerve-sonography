@@ -1,10 +1,10 @@
 // One page view to Marc's own OpenPanel, plus a "404" event to both analytics on
 // the missing-page page. The visitor is counted by a daily-salted hash of address
 // and browser on the server; nothing is stored in the browser. The client id is
-// public; blank sends nothing.
+// public.
 import { OpenPanel } from './vendor/openpanel-sdk-1.3.1.js';
 
-const clientId = '';
+const clientId = '838a70ce-bc3f-447a-8c62-1c177d73cc8a';
 
 // Campaign tags survive; any other query or fragment is dropped.
 function clean(raw) {
